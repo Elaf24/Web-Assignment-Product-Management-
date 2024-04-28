@@ -1,0 +1,48 @@
+.carousel-item img {
+  max-height: 500px;
+  max-width: 100%;
+  margin-bottom: auto;
+  margin-top: 40px;
+  padding: auto;
+  border-radius: 12px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(15, 15, 32, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.addProduct {
+  background: linear-gradient(135deg, #f36265 0%, #961276 100%);
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.addProduct:hover {
+  font-weight: bold;
+  transform: translateY(-5px);
+}
+
+.addProduct:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
